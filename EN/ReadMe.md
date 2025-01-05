@@ -235,13 +235,10 @@ It is important to note that:
 ## CALDERA SOFTWARE: MITRE SIMULATION
 [Caldera](https://caldera.mitre.org) is a cybersecurity framework developed by MITRE that helps professionals save time, money, and energy through automated security assessments.
 
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/SXmhIFOD9c8" 
-          title="Caldera Presentation Video" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-  </iframe>
-</div>
+## CALDERA SOFTWARE : SIMULATION MITRE
+Caldera est un framework de cybersécurité développé par MITRE qui permet aux professionnels d'économiser du temps, de l'argent et de l'énergie grâce à des évaluations de sécurité automatisées.
+
+[![Caldera Presentation Video](https://img.youtube.com/vi/SXmhIFOD9c8/0.jpg)](https://www.youtube.com/watch?v=SXmhIFOD9c8)
 
 # CVE2CAPEC: CVE AND MITRE MAPPING
 Let’s summarize what we have now:
