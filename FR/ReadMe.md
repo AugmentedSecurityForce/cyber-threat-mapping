@@ -14,6 +14,7 @@
     - [COMPRENDRE LES INFORMATIONS](#comprendre-les-informations-1)
     - [IDENTIFIER LES PROTECTIONS PAR TECHNIQUES](#identifier-les-protections-par-techniques)
   - [MATRIX : IDENTIFIER LES LOGICIELS](#matrix--identifier-les-logiciels)
+  - [INDICATEUR DE COMPROMISSION](#indicateur-de-compromission)
   - [NAVIGATOR : RÉALISER LA CARTOGRAPHIE](#navigator--réaliser-la-cartographie)
     - [CAS 1 : UN SEUL GROUPE](#cas-1--un-seul-groupe)
     - [CAS 2 : PLUSIEURS GROUPES](#cas-2--plusieurs-groupes)
@@ -27,6 +28,7 @@
 - [VÉRIFIER LES CAPACITÉS DE VOTRE EDR/XDR](#vérifier-les-capacités-de-votre-edrxdr)
   - [MITRE ENGENUITY](#mitre-engenuity)
   - [CALDERA SOFTWARE : SIMULATION MITRE](#caldera-software--simulation-mitre)
+  - [CALDERA SOFTWARE : SIMULATION MITRE](#caldera-software--simulation-mitre-1)
 - [CVE2CAPEC : MAPPING CVE ET MITRE](#cve2capec--mapping-cve-et-mitre)
 - [RAPPORT](#rapport)
 
@@ -131,6 +133,20 @@ Sur la même page que précédemment, se trouve également un tableau dédié au
 Comme pour les techniques, créez un tableau dédié :
 
 ![Softwares02](./IMAGES/Softwares02.png)
+
+## INDICATEUR DE COMPROMISSION
+
+Vos attaquants sont identifiés.  
+Profitez-en pour vérifier les indicateurs de compromission connus pour ces groupes, que ce soit via :  
+
+- **Des listes publiques** (disponibles sur GitHub, par exemple) :  
+  Confiance potentiellement faible, mais coûts faibles et quantités potentiellement importantes.  
+- **Des feeds payants** (ex. : AlienVault, Unit42, etc.) :  
+  Confiance plutôt élevée, quantité correcte, mais le prix peut rapidement devenir un frein.  
+- **Des feeds gouvernementaux / ISAC** :  
+  Confiance importante, mais difficultés potentielles d'accès aux données.  
+
+Pour plus d'informations sur la gestion des IoC, lire la [RFC9424](https://datatracker.ietf.org/doc/rfc9424/).
 
 ## NAVIGATOR : RÉALISER LA CARTOGRAPHIE
 Maintenant que nous avons de très beaux tableaux, il est temps de réaliser une cartographie plus visuelle pour déterminer ce qui doit être géré en priorité.
@@ -238,6 +254,7 @@ Il est important de prendre en compte que :
 Caldera est un framework de cybersécurité développé par MITRE qui permet aux professionnels d'économiser du temps, de l'argent et de l'énergie grâce à des évaluations de sécurité automatisées.
 
 [![Caldera Presentation Video](https://img.youtube.com/vi/SXmhIFOD9c8/0.jpg)](https://www.youtube.com/watch?v=SXmhIFOD9c8)
+
 
 # CVE2CAPEC : MAPPING CVE ET MITRE
 Faisons le point sur ce que nous avons maintenant :
