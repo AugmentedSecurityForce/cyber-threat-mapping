@@ -14,7 +14,7 @@
     - [UNDERSTANDING THE INFORMATION](#understanding-the-information-1)
     - [IDENTIFYING PROTECTIONS BY TECHNIQUE](#identifying-protections-by-technique)
   - [MATRIX: IDENTIFYING SOFTWARE](#matrix-identifying-software)
-- [INDICATOR OF COMPROMISE](#indicator-of-compromise)
+  - [INDICATOR OF COMPROMISE](#indicator-of-compromise)
   - [NAVIGATOR: MAPPING](#navigator-mapping)
     - [CASE 1: ONE GROUP ONLY](#case-1-one-group-only)
     - [CASE 2: MULTIPLE GROUPS](#case-2-multiple-groups)
@@ -134,7 +134,7 @@ As with techniques, create a dedicated table:
 
 ![Softwares02](./IMAGES/Softwares02.png)
 
-# INDICATOR OF COMPROMISE
+## INDICATOR OF COMPROMISE
 
 Your attackers have been identified.  
 Take this opportunity to check the known indicators of compromise (IoCs) for these groups, using:  
