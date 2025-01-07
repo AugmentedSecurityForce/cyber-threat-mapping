@@ -14,6 +14,7 @@
     - [UNDERSTANDING THE INFORMATION](#understanding-the-information-1)
     - [IDENTIFYING PROTECTIONS BY TECHNIQUE](#identifying-protections-by-technique)
   - [MATRIX: IDENTIFYING SOFTWARE](#matrix-identifying-software)
+- [INDICATOR OF COMPROMISE](#indicator-of-compromise)
   - [NAVIGATOR: MAPPING](#navigator-mapping)
     - [CASE 1: ONE GROUP ONLY](#case-1-one-group-only)
     - [CASE 2: MULTIPLE GROUPS](#case-2-multiple-groups)
@@ -28,6 +29,7 @@
   - [MITRE ENGENUITY](#mitre-engenuity)
   - [CALDERA SOFTWARE: MITRE SIMULATION](#caldera-software-mitre-simulation)
   - [CALDERA SOFTWARE: MITRE SIMULATION](#caldera-software-mitre-simulation-1)
+  - [CALDERA SOFTWARE : SIMULATION MITRE](#caldera-software--simulation-mitre)
 - [CVE2CAPEC: CVE AND MITRE MAPPING](#cve2capec-cve-and-mitre-mapping)
 
 # OBJECTIVE
@@ -131,6 +133,21 @@ On the same page as before, there is also a table dedicated to the software used
 As with techniques, create a dedicated table:
 
 ![Softwares02](./IMAGES/Softwares02.png)
+
+# INDICATOR OF COMPROMISE
+
+Your attackers have been identified.  
+Take this opportunity to check the known indicators of compromise (IoCs) for these groups, using:  
+
+- **Public lists** (available on GitHub, for example):  
+  Potentially low confidence, but low costs and potentially large quantities.  
+- **Paid feeds** (e.g., AlienVault, Unit42, etc.):  
+  Relatively high confidence, moderate quantity, but the price can quickly become a barrier.  
+- **Governmental feeds / ISACs**:  
+  High confidence, but potential difficulties in accessing the data.  
+
+For more information on the lifecycle of IoCs, refer to [RFC9424](https://datatracker.ietf.org/doc/rfc9424/).
+
 
 ## NAVIGATOR: MAPPING
 Now that we have some nice tables, it’s time to create a more visual mapping to determine what should be managed as a priority.
